@@ -6,7 +6,7 @@ The evaluation script validates the correctness and consistency of the WP4 RES-Q
 ## Usage
 
 ```python
-from form_definition_ot import FormDefinition
+from form_definition import FormDefinition
 
 form_definition = FormDefinition(schema_path="./schema.json")
 
@@ -25,7 +25,7 @@ form_definition.validate_dataset(dataset=data, required_fields_validation=True)
 
 Eventually, only single report could be validated as well
 ```python
-from form_definition_ot import FormDefinition
+from form_definition import FormDefinition
 
 form_definition = FormDefinition(schema_path="./schema.json")
 
